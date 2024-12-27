@@ -13,7 +13,7 @@ d = {"a": 1,
 def ertekek_duplazasa(d: dict):
     for values in d:
         d[values] *= 2
+    return d
 
-ertekek_duplazasa(d)
 
-print(d)
+print(ertekek_duplazasa(d))
